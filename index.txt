@@ -1,0 +1,34 @@
+<!-- Number Configuration -->
+<script>
+  const supportPhoneNumber = "+1 (844) 610-2492"; // CHANGE THIS TO UPDATE ALL CTAs
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expert Tech Support – Call Now</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; text-align: center; }
+    .header, .footer { background: #1e1e2f; color: #fff; padding: 20px; text-align: center; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    .section { background: #fff; padding: 30px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+    h1, h2 { color: #1e1e2f; }
+    .cta { display: block; margin: 20px 0; text-align: center; }
+    .cta a { background: #007bff; color: #fff; padding: 15px 25px; border-radius: 8px; text-decoration: none; font-size: 18px; display: inline-block; width: 100%; max-width: 300px; }
+    .cta a:hover { background: #0056b3; }
+    .disclaimer { font-size: 18px; color: #777; text-align: center; margin-top: 40px; padding: 0 15px; }
+    ul { list-style-type: disc; padding-left: 20px; text-align: left; display: inline-block; }
+
+    @media (max-width: 600px) {
+      .section { padding: 20px; }
+      ul { padding-left: 10px; text-align: center; }
+      .cta a { font-size: 16px; padding: 12px 20px; }
+    }
+  </style>
+</head>
+<body>
+  ...
+</body>
+</html>
