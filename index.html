@@ -29,6 +29,91 @@
   </style>
 </head>
 <body>
-  ...
+  <div class="header">
+    <h1>Need Help With Tech, Devices or Accounts?</h1>
+    <p>Call Our U.S.-Based Experts for Fast & Private Support</p>
+    <div class="cta"><a id="cta-top" href="tel:+18446102492"></a></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h2>Email & Account Recovery</h2>
+      <ul>
+        <li>Recover lost or forgotten email passwords</li>
+        <li>Assist with 2FA and security code access</li>
+        <li>Regain control of hacked or suspended accounts</li>
+        <li>Help with Gmail, Outlook, iCloud, Yahoo and more</li>
+        <li>Resolve issues with email syncing on multiple devices</li>
+        <li>Configure email clients like Outlook or Thunderbird</li>
+      </ul>
+      <div class="cta"><a id="cta-1" href="tel:+18446102492"></a></div>
+    </div>
+
+    <div class="section">
+      <h2>Device & Computer Support</h2>
+      <ul>
+        <li>Fix slow or unresponsive computers</li>
+        <li>Resolve startup and shutdown errors</li>
+        <li>Diagnose and remove performance bottlenecks</li>
+        <li>Repair application crashes or freezing</li>
+        <li>Setup and configure new devices</li>
+        <li>Optimize system settings for performance</li>
+      </ul>
+      <div class="cta"><a id="cta-2" href="tel:+18446102492"></a></div>
+    </div>
+
+    <div class="section">
+      <h2>Printer & Network Help</h2>
+      <ul>
+        <li>Fix printers not detected by your computer</li>
+        <li>Resolve printer offline or print queue issues</li>
+        <li>Install or update drivers for all major printer brands</li>
+        <li>Help with wireless or Ethernet printer setup</li>
+        <li>Diagnose network connection problems</li>
+        <li>Set up and secure home or office Wi-Fi</li>
+      </ul>
+      <div class="cta"><a id="cta-3" href="tel:+18446102492"></a></div>
+    </div>
+
+    <div class="section">
+      <h2>Antivirus & Security</h2>
+      <ul>
+        <li>Remove malware, adware, and spyware</li>
+        <li>Install and configure antivirus software</li>
+        <li>Secure your internet browsing and privacy</li>
+        <li>Respond to pop-up scams or suspicious activity</li>
+        <li>Recover systems compromised by viruses</li>
+        <li>Protect your data with custom security settings</li>
+      </ul>
+      <div class="cta"><a id="cta-4" href="tel:+18446102492"></a></div>
+    </div>
+
+    <div class="section">
+      <h2>Software & Smart Device Support</h2>
+      <ul>
+        <li>Install or troubleshoot Microsoft Office, Zoom, and more</li>
+        <li>Help with smart TVs, Alexa, Google Home, and IoT devices</li>
+        <li>Resolve compatibility or configuration issues</li>
+        <li>Support for software updates and setup</li>
+        <li>Connect smart home devices to secure Wi-Fi</li>
+        <li>Configure and optimize streaming services</li>
+      </ul>
+      <div class="cta"><a id="cta-5" href="tel:+18446102492"></a></div>
+    </div>
+
+    <div class="disclaimer">
+      <p>Disclaimer: We are an independent technical support provider and are not affiliated with any brand, service, or company mentioned. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. Services provided are subject to availability and are intended only for lawful and personal use. We do not guarantee the resolution of all issues and results may vary. By contacting us, you agree that we are not responsible for any indirect, incidental, or consequential damages arising from the use or misuse of our services. It is the user's responsibility to ensure they have proper backups and authorization for any changes made. This site and services are provided "as is" without warranties of any kind.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Call Now: <span id="cta-footer"></span></p>
+  </div>
+
+  <script>
+    // Update all CTAs with the centralized number
+    const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+    phoneLinks.forEach(link => link.textContent = `📞 Call Now – ${supportPhoneNumber}`);
+  </script>
 </body>
 </html>
